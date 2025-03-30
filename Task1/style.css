@@ -1,0 +1,153 @@
+*{
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: black;
+    padding: 30px 30px;
+}
+
+.navbar h1 {
+    color: #ffcc00;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+.navbar a:hover{
+    color: white;
+}
+
+.hero {
+    background: #ffcc00;
+    text-align: center;
+    padding: 140px 20px;
+}
+
+.hero h2 {
+    font-size: 35px;
+    margin-bottom: 35px;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 20px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn:hover{
+    color: #ffcc00;
+}
+
+.features {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.features h2{
+    margin: 10px;
+}
+
+.feature-item {
+    display: inline-block;
+    background: #f1f1f1;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.signup {
+    text-align: center;
+    padding: 60px 20px;
+    background: black;
+    color: white;
+}
+
+.signup h2 {
+    margin: 5px;
+}
+.signup input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.btn2 {
+    background: #222;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+.btn2:hover{
+    color: #ffcc00;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    padding: 20px;
+}
+
+.foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #222;
+    color: white;
+}
+
+.footp {
+    text-align: left;
+    color:#ffcc00;
+}
+
+.socials svg {
+    width: 30px;
+    height: 30px;
+}
+
+.socials {
+    display: flex;
+    gap: 10px;
+}
+
+.socials a:nth-child(1):hover svg path {
+    fill: #1877F2;
+}
+
+.socials a:nth-child(2):hover svg path {
+    fill: #ffff;
+}
+
+.socials a:nth-child(3):hover svg path {
+    fill: #ed5974;
+}
+
