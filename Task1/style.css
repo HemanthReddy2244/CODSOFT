@@ -151,3 +151,75 @@ footer {
     fill: #ed5974;
 }
 
+@media screen and (max-width: 480px) {
+    .navbar {
+        flex-direction: column;
+        padding: 15px;
+    }
+
+    .navbar h1 {
+        margin-bottom: 15px;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .hero {
+        padding: 80px 15px;
+    }
+
+    .hero h2 {
+        font-size: 22px;
+        margin-bottom: 25px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 14px;
+    }
+
+    .feature-item {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .signup {
+        padding: 40px 15px;
+    }
+
+    .signup input {
+        width: 100%;
+        margin: 0 0 10px 0;
+    }
+
+    .btn2 {
+        width: 100%;
+    }
+
+    .foot {
+        flex-direction: column;
+        gap: 15px;
+        text-align: center;
+    }
+
+    .footp {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .hero h2 {
+        font-size: 20px;
+    }
+
+    .navbar h1 {
+        font-size: 20px;
+    }
+}
+.socials a:nth-child(3):hover svg path {
+    fill: #ed5974;
+}
+
